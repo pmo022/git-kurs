@@ -20,6 +20,7 @@ def header():
             <img class="logo"
                 src="https://via.placeholder.com/100x40?text=Knowit Git" />
             Velkommen til Git kurs!!!!!
+            V1 bugfix!
         </header>
         <br/>
     '''
