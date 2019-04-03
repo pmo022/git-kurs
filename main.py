@@ -45,6 +45,10 @@ def footer():
     '''
 
 
+def my_new_awesome_feature():
+    ...
+
+
 stylesheet = '''
     <style>
         header {
