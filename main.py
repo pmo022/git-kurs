@@ -34,7 +34,7 @@ def footer():
         <footer>
             Laget av Andreas, Edvard, Patrick fra Knowit
 
-            Link til repo: <a href="https://github.com/pmo022/git-kurs" />
+             <a href="https://github.com/pmo022/git-kurs">Link til repo</a>
         </footer>
     '''
 
