@@ -9,7 +9,7 @@ def index():
         stylesheet + \
         header() + \
         body() + \
-        footer() 
+        footer()
     return webpage
 
 
@@ -33,6 +33,8 @@ def footer():
     return '''
         <footer>
             Laget av Andreas, Edvard, Patrick fra Knowit
+
+            Link til repo: https://github.com/pmo022/git-kurs
         </footer>
     '''
 
@@ -41,7 +43,7 @@ stylesheet = '''
     <style>
         header {
             font-size: 20px;
-            border-bottom: 1px solid black; 
+            border-bottom: 1px solid black;
             margin-bottom: 30px;
             padding-bottom: 10px;
         }
