@@ -16,6 +16,8 @@ def index():
 def header():
     return f'''
         <header>
+            <img class="logo" 
+                src="https://via.placeholder.com/100x40?text=Knowit Git" />
             Velkommen til Git kurs
         </header>
         <br/>
@@ -44,6 +46,11 @@ stylesheet = '''
             border-bottom: 1px solid black; 
             margin-bottom: 30px;
             padding-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        header img {
+            margin-right: 10px;
         }
 
         footer {
