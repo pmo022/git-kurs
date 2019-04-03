@@ -15,9 +15,9 @@ def index():
 
 def header():
     return f'''
-        <div class="header">
+        <header>
             Velkommen til Git kurs
-        </div>
+        </header>
         <br/>
     '''
 
@@ -30,16 +30,26 @@ def body():
     '''
 
 def footer():
-    return "Footer (todo lag footer her)"
+    return '''
+        <footer>
+            Laget av Andreas, Edvard, Patrick fra Knowit
+        </footer>
+    '''
 
 
 stylesheet = '''
     <style>
-        .header {
+        header {
             font-size: 20px;
             border-bottom: 1px solid black; 
-            margin-bottom: 28px;
+            margin-bottom: 30px;
             padding-bottom: 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding-top: 10px;
+            border-top: 1px solid black;
         }
     </style>
 '''
